@@ -147,9 +147,10 @@ for(let i in carro){
 html += '</ul>';
 
 document.getElementById('demo').innerHTML = html;
+ 
 
 
-
+//studing forEach end map
 
 
 
