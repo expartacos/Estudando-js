@@ -152,8 +152,22 @@ document.getElementById('demo').innerHTML = html;
 
 //studing forEach end map
 
+//studing objetos
 
+let personagem = {
+    nome: 'Rafael',
+    idade: 30,
+    pais: 'Brasil',
+    carros: [{modelo: 'uno', ano: 92}, {modelo: 'fusca', ano: 50}],
+    status: {
+        forca: 10,
+        inteligencia: 5,
+        agilidade: 40
+    }
 
+}
+
+console.log(personagem.carros[0].ano);
 
 
 
