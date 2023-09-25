@@ -183,6 +183,9 @@ let person = {
     }
 }
 
+let italo = new person('Italo', 'Brasil');
+
+console.log(italo);
 
 
 
