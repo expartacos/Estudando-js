@@ -177,17 +177,28 @@ POO ou OOP do inglês object oriented programming.
 
 class Person {
     age = 20;
+    steeps = 0;
     constructor(name, pais, religion, power){
         this.name = name;
         this.pais = pais;
         this.religion = religion;
         this.power = power;
     }
+
+    takeASteps(){
+        this.steeps++;
+    }
 }
 
 let italo = new Person('italo', 'Brasil', 'Cristianismo', 100);
+italo.takeASteps();
+italo.takeASteps();
+italo.takeASteps();
+italo.takeASteps();
+italo.takeASteps();
 
-console.log(italo);
+
+console.log(`${italo.name} deu  ${italo.steeps} passos`);
 
 
 
