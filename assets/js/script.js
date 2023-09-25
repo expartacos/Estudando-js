@@ -169,6 +169,21 @@ let personagem = {
 
 console.log(personagem.carros[0].ano);
 
+//studing POO 
+/* Objeto é uma simulação de algo real...
+POO ou OOP do inglês object oriented programming.
+*/
+//Template 
+
+let person = {
+    idade: 20, 
+    construtor (name, pais){
+        this.name = name,
+        this.pais = pais
+    }
+}
+
+
 
 
 
