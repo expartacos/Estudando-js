@@ -196,9 +196,11 @@ italo.takeASteps();
 italo.takeASteps();
 italo.takeASteps();
 italo.takeASteps();
+let bere = new Person('bere', 'Brasil', 'Cristianismo', 200);
 
 
 console.log(`${italo.name} deu  ${italo.steeps} passos`);
+console.log(`${bere.name} deu  ${bere.steeps} passos`);
 
 
 
