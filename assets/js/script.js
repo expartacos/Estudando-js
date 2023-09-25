@@ -175,15 +175,17 @@ POO ou OOP do inglês object oriented programming.
 */
 //Template 
 
-let person = {
-    idade: 20, 
-    construtor (name, pais){
-        this.name = name,
-        this.pais = pais
+class Person {
+    age = 20;
+    constructor(name, pais, religion, power){
+        this.name = name;
+        this.pais = pais;
+        this.religion = religion;
+        this.power = power;
     }
 }
 
-let italo = new person('Italo', 'Brasil');
+let italo = new Person('italo', 'Brasil', 'Cristianismo', 100);
 
 console.log(italo);
 
