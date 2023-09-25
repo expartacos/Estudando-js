@@ -188,6 +188,12 @@ class Person {
     takeASteps(){
         this.steeps++;
     }
+    
+    setAge(newAge){
+        if(typeof newAge == 'number' ){
+            this.age = newAge;
+        }
+    }
 }
 
 let italo = new Person('italo', 'Brasil', 'Cristianismo', 100);
@@ -197,7 +203,10 @@ italo.takeASteps();
 italo.takeASteps();
 italo.takeASteps();
 let bere = new Person('bere', 'Brasil', 'Cristianismo', 200);
+bere.setAge(86);
 
+console.log(`${bere.name} tem ${bere.age} anos`);
+console.log(`${italo.name} tem ${italo.age} anos`);
 
 console.log(`${italo.name} deu  ${italo.steeps} passos`);
 console.log(`${bere.name} deu  ${bere.steeps} passos`);
